@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application - Y.M.G GRAPHICS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+        }
+
+        .navbar a {
+            float: left;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            background-color: #000;
+        }
+
+        .navbar .active {
+            background-color: #04AA6D;
+        }
+
+        @media screen and (max-width: 500px) {
+            .navbar a {
+                float: none;
+                display: block;
+            }
+        }
+
+        .container {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #555;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .form-container {
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .form-container label {
+            font-weight: bold;
+        }
+
+        .form-container input[type=text], .form-container input[type=email], .form-container input[type=tel], .form-container textarea, .form-container select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-container input[type=file] {
+            margin-top: 5px;
+        }
+
+        .form-container input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .form-container input[type=submit]:hover {
+            background-color: #039e5d;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="services.html"><i class="fa fa-fw fa-cogs"></i> Services</a>
+        <a href="portfolio.html"><i class="fa fa-fw fa-briefcase"></i> Portfolio</a>
+        <a href="about.html"><i class="fa fa-fw fa-info"></i> About</a>
+    </div>
+
+    <div class="container">
+        <h1>Job Application</h1>
+        <p>Interested in joining our team? Fill out the application form below:</p>
+
+        <div class="form-container">
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+
+                <label for="position">Position Applying For</label>
+                <input type="text" id="position" name="position" placeholder="Position.." required>
+
+                <label for="resume">Upload Resume (PDF, DOC, DOCX)</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+                <label for="cover_letter">Cover Letter (optional)</label>
+                <textarea id="cover_letter" name="cover_letter" placeholder="Write a cover letter.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit Application">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Y.M.G GRAPHICS. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </p>
+    </div>
+</body>
+</html>

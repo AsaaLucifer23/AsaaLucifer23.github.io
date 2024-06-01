@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y.M.G GRAPHICS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+        }
+
+        .navbar a {
+            float: left;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            background-color: #000;
+        }
+
+        .navbar .active {
+            background-color: #04AA6D;
+        }
+
+        @media screen and (max-width: 500px) {
+            .navbar a {
+                float: none;
+                display: block;
+            }
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .info-section {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            margin: 10px 0;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #039e5d;
+        }
+
+        .footer {
+            background-color: #555;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .form-container {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .form-container input[type=text], .form-container input[type=email], .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-container input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-container input[type=submit]:hover {
+            background-color: #039e5d;
+        }
+
+        /* Simple animations */
+        .info-section {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="services.html"><i class="fa fa-fw fa-cogs"></i> Services</a>
+        <a href="portfolio.html"><i class="fa fa-fw fa-briefcase"></i> Portfolio</a>
+        <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="about.html"><i class="fa fa-fw fa-info"></i> About</a>
+        <a href="job_application.html" class="button"><i class="fa fa-fw fa-file"></i> Apply for a Job</a>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to Y.M.G GRAPHICS!</h1>
+        <p>We are excited to have you explore our services in creating stunning and functional websites tailored to your needs!</p>
+
+        <div class="info-section">
+            <h2>Our Mission:</h2>
+            <p>We are dedicated to providing a world-class design environment and inspiring our clients to have the best digital presence possible.</p>
+            <img src="https://via.placeholder.com/300" alt="Mission Image" style="width:100%; max-width:300px;">
+        </div>
+
+        <div class="info-section">
+            <h2>Our History:</h2>
+            <p>Founded in 2019, Y.M.G GRAPHICS has grown to become a leading design company, known for our innovative and creative approach to web design.</p>
+            <img src="https://via.placeholder.com/300" alt="History Image" style="width:100%; max-width:300px;">
+        </div>
+
+        <div class="info-section">
+            <h2>Our Services:</h2>
+            <p>We offer a range of services including website design, development, and maintenance. Our team is skilled in the latest technologies to deliver top-notch solutions.</p>
+            <img src="https://via.placeholder.com/300" alt="Services Image" style="width:100%; max-width:300px;">
+        </div>
+
+        <div class="info-section">
+            <h2>Our Team:</h2>
+            <p>Our team is composed of experienced designers, developers, and strategists who are passionate about creating unique and effective digital experiences.</p>
+            <img src="https://via.placeholder.com/300" alt="Team Image" style="width:100%; max-width:300px;">
+        </div>
+
+        
+        <div class="info-section">
+    <h2>Our Team:</h2>
+    <p>Our team is composed of experienced designers, developers, and strategists who are passionate about creating unique and effective digital experiences.</p>
+    <img src="https://images.unsplash.com/photo-1581093588401-87122c4fc492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg3NzN8MHwxfGFsbHwxfHx8fHx8fHwxNjEyMDA3NTY4&ixlib=rb-1.2.1&q=80&w=1080" alt="Graphic Design Team" style="width:100%; max-width:300px;">
+</div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Y.M.G GRAPHICS. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </p>
+    </div>
+</body>
+</html>

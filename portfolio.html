@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Y.M.G GRAPHICS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #555;
+            overflow: auto;
+        }
+
+        .navbar a {
+            float: left;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            background-color: #000;
+        }
+
+        .navbar .active {
+            background-color: #04AA6D;
+        }
+
+        @media screen and (max-width: 500px) {
+            .navbar a {
+                float: none;
+                display: block;
+            }
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .portfolio-item {
+            margin-bottom: 20px;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            background-color: #555;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="services.html"><i class="fa fa-fw fa-cogs"></i> Services</a>
+        <a class="active" href="portfolio.html"><i class="fa fa-fw fa-briefcase"></i> Portfolio</a>
+        <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="about.html"><i class="fa fa-fw fa-info"></i> About</a>
+    </div>
+
+    <div class="container">
+        <h1>Our Portfolio</h1>
+        <p>Here are some of the projects we've worked on:</p>
+
+        <div class="portfolio-item">
+            <h2>Project 1</h2>
+            <img src="https://via.placeholder.com/300" alt="Project 1 Image">
+            <p>Description of Project 1.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <h2>Project 2</h2>
+            <img src="https://via.placeholder.com/300" alt="Project 2 Image">
+            <p>Description of Project 2.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <h2>Project 3</h2>
+            <img src="https://via.placeholder.com/300" alt="Project 3 Image">
+            <p>Description of Project 3.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Y.M.G GRAPHICS. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </p>
+    </div>
+</body>
+</html>
